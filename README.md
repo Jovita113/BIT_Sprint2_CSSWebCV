@@ -18,6 +18,17 @@ Practical project no. 2, which was created using only HTML and CSS.
 * Raw CSS
 * A litle bit of JS
 
-## Link adress
+### Setup 
 
-https://jovita113.github.io/BIT_Sprint2_CSSWebCV/
+The project launches through the Github page.
+Link: https://jovita113.github.io/BIT_Sprint2_CSSWebCV/
+
+### Project Status
+
+Project is complete
+
+### Contact
+
+Created by Jovita 
+Feel free to contact me!
+LinkedIn linkedin.com/in/jovita-s-496773219
