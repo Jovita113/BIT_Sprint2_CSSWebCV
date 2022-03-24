@@ -84,3 +84,9 @@ section {
         padding: 6rem;
     }
 }
+
+@media (max-width: 480px) {
+    p {
+       margin: 0;
+    }
+}
