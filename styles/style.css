@@ -102,10 +102,10 @@ input[type=button2] {
     text-align: center;
 }
 
-@media (min-widht: 40rem) {
+@media (min-width: 640px) {
     header,
     section {
-        padding: 7rem;
+        padding-top: 7rem;
     }
 }
 
@@ -120,7 +120,7 @@ input[type=button2] {
     flex-direction: column;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 640px) {
     .split {
         flex-direction: row;
     }
@@ -137,6 +137,32 @@ input[type=button2] {
     input[type=button2] {
         
         margin: 10px;
-
     }
 }
+
+
+@media (max-width: 600px) {
+    input[type=button],
+    input[type=button1],
+    input[type=button2] {
+
+        width: 75px;
+        height: 75px;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
