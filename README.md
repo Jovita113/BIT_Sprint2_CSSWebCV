@@ -1,4 +1,4 @@
-# BIT_Sprint2_CSSWebCV 
+## BIT_Sprint2_CSSWebCV 
 
 Practical project no. 2, which was created using only HTML and CSS.
 
@@ -29,7 +29,7 @@ Link: https://jovita113.github.io/BIT_Sprint2_CSSWebCV/
 Project is complete
 
 ## Contact
----------------
+
 Created by Jovita 
 Feel free to contact me!
 LinkedIn https://linkedin.com/in/jovita-s-496773219
