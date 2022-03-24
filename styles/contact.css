@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-nav:rgb(245, 29, 101);
+    --bg-nav: #fefbd8;
+}
+
+body {
+    background-color: var(--bg-nav);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ff6f005d;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+label {
+    display: inline-block;
+    color: #633030;
+    font-weight: bold;
+
+}
+
+label.logo1 {
+    margin-left: 210px;
+}
+
+input[type=submit] {
+    background-color: #633030;
+    color: rgb(241, 233, 233);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover {
+    background-color:#5c552c93 ;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #817268b2;
+    padding: 20px;
+    width: 600px;
+    margin: 112px 380px 112px 400px;
+}
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row-2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .container {
+       width: 680px;
+       font-size: 16px;
+       padding: 15px;
+       margin: 50px;
+       margin-top: 50px;
+    }
+
+    input[type=submit]{
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        width: 70%;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    input[type=submit]{
+        font-size: 16px;
+    }
+
+    [class*="col-"] {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+        width: 80%;
+        font-size: 16px;
+        padding: 15px;
+        margin-left: 15px;
+    }
+
+    input[type=submit]{
+        font-size: 14px;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    label.logo1 {
+        margin-left: 20px;
+    }
+
+    .container label {
+        display: none;
+    }
+}

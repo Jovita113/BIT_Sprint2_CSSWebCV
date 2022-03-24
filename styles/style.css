@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-nav:rgb(245, 29, 101);
+    --bg-nav: #fefbd8;
+}
+
+body {
+    font-family: montserrat;
+    background: var(--bg-nav);
+}
+
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h2 {
+   font-size: 90px;
+   font-family: 'Times New Roman', Times, serif;
+   padding-left: 16px;
+   color: #72807f;
+}
+
+h3 {
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.split img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+section {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 64px 64px;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%,70.5rem);
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    padding-top: 32px;
+    font-size: 16px;
+    color:rgb(104, 73, 94);
+    line-height: 1.6;
+}
+
+input {
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+input[type=button] {
+    width: 128px;
+    height: 128px;
+    background-color:rgb(84, 125, 240);
+    color: black;
+    margin-left: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type=button1] {
+    width: 128px;
+    height: 128px;
+    background-color: #e49a12e8;
+    color: black;
+    margin-left: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=button2] {
+    width: 128px;
+    height: 128px;
+    background-color: var(--clr-nav);
+    color: black;
+    margin-left: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media (min-widht: 40rem) {
+    header,
+    section {
+        padding: 7rem;
+    }
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%,70.5rem);
+
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 40em) {
+    .split {
+        flex-direction: row;
+    }
+
+    .split > * {
+        flex-basis: 100%;
+    }
+
+    .split > * + * {
+        margin-left: 2rem;
+    }
+    input[type=button],
+    input[type=button1],
+    input[type=button2] {
+        
+        margin: 10px;
+
+    }
+}
