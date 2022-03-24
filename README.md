@@ -12,6 +12,12 @@ Practical project no. 2, which was created using only HTML and CSS.
 * Create a beautiful footer with at least two columns of content.
 * Use @media queries rules to complete the RWD design so that your site fits 3 screen sizes.
 
+### Technologies Used
+
+* Raw HTML
+* Raw CSS
+* A litle bit of JS
+
 ## Link adress
 
 https://jovita113.github.io/BIT_Sprint2_CSSWebCV/
